@@ -1,15 +1,13 @@
-<<<<<<< HEAD
-
-=======
 # Проект АСУ PYSCA-HMI 
+# Библиотека PYPLC: https://github.com/vlinnik 
+# Инструкция (ниже) от https://github.com/vlinnik
 
-Проект автоматизации линии приготовления бетона 
+Проект автоматизации линии приготовления трепела
 
 - Логика управления написана для контроллера KRAX PLC-932
 - Визуализация написана на python3+PyQt5
 
 # Запуск
-
 ## Зависимости
 
 AnyQt, PyQt5, pyplc, pysca, pygui
@@ -32,7 +30,6 @@ python3 <SOURCE_DIR_LOCATION>/__main__.py -w <SOURCE_DIR_LOCATION>
 ```
 
 # Сборка pyinstaller
-
 ## Создание spec файла
 
 ```
@@ -77,4 +74,3 @@ PYQTDESIGNERPATH=. designer
 ```
 
 в designer должен быть установлен libpyqt5/libpyqt5 
->>>>>>> 3ad5019 (zavod)
